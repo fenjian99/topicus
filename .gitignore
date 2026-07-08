@@ -1,1 +1,4 @@
 examples/*.pptx
+node_modules/
+build_deck.py
+parse_safe.py
