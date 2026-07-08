@@ -1,0 +1,15 @@
+Field,Value,Notes
+Report Date,7 Jul 2026,Morningstar quantitative report date
+Last Close (C$),91.7,CAD price on 6 Jul 2026
+Fair Value Estimate (C$),131.45,Morningstar quantitative FVE as of 7 Jul 2026
+Price/Fair Value,0.7,30% discount to FVE
+Valuation,Undervalued,30% discount
+Star Rating,3 Stars,Capped at 3 due to momentum filter (bottom 30th percentile)
+Uncertainty,High,IQR of possible fair values >15% and <35%
+Economic Moat,Narrow,Score 0.71-0.99; Jul 2026 score ~0.97
+Financial Health,Moderate,Score between 0.2-0.7; no near-term distress
+1-Star Price (C$),165.25,Overvalued threshold (sell signal)
+5-Star Price (C$),104.57,Deeply undervalued threshold (strong buy)
+EPS 3-yr Growth,36.9%,Top 20% globally (Morningstar)
+Trading Volume Percentile,Bottom 40%,Low liquidity vs. global peers — risk factor
+FCF Def (Morningstar),OCF - CapEx - Leases,"FY2025: 345.71M EUR (vs moomoo 402M, diff=leases)"

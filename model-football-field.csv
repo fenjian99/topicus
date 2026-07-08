@@ -1,0 +1,8 @@
+Method,Description,TargetPrice_CAD,ImpliedUpside_pct
+Bear DCF,"FCF 12% growth, 15x exit, 11.5% WACC",139,50.2
+Analyst Consensus,TD C$145 / RBC C$150 / Desjardins C$140,145,57.2
+Morningstar FV,Quantitative fair value estimate (31% discount),137,48.5
+Comps Re-rate,TOI at CSU 16.1x EV/FCF + 1yr FCF growth,135,46.4
+Base DCF,"FCF 18% growth, 16x exit, 10.5% WACC",196,112.5
+Bull DCF,"FCF 23% growth, 22x exit, 9.5% WACC",328,255.6
+Current Price,Market price Jul 7 2026,92.25,0

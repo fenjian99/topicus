@@ -1,0 +1,12 @@
+Component,Unit,Value,Notes
+Risk-Free Rate (10yr GoC),%,3.5,Government of Canada 10-yr bond yield
+Equity Risk Premium,%,5.5,Historical ERP for Canadian equities
+Beta (estimated),x,1.1,Based on CSU levered beta; moderate leverage
+Size Premium (TSXV),%,1.0,Small-cap illiquidity premium
+Cost of Equity (Ke),%,10.55,Ke = Rf + β×ERP + size premium
+Pre-tax Cost of Debt,%,5.5,Estimated from FY2025 debt issuance terms
+Tax Rate,%,25.0,Canadian statutory corporate tax rate
+After-tax Cost of Debt,%,4.13,Kd × (1 - tax rate)
+Equity Weight,%,80,Q1 2026: equity 837M / (equity 837M + debt 546M)
+Debt Weight,%,20,"Q1 2026: debt 546M / total capital 1,383M"
+WACC,%,9.27,Blended; use 10.0–10.5% conservative in model
