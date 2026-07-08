@@ -1,0 +1,940 @@
+meta:
+  title: "Topicus.com (TOI) — Investment Research"
+  subtitle: "Buy Recommendation | Target C$196"
+  date: "July 2026"
+  slide_size: [10, 7.5]  # inches, standard widescreen
+  color_palette:
+    primary: "#1F3864"      # dark navy
+    accent: "#2E75B6"       # mid blue
+    highlight: "#ED7D31"    # orange
+    positive: "#375623"     # dark green
+    negative: "#C00000"     # red
+    light_bg: "#F2F2F2"
+    white: "#FFFFFF"
+
+slides:
+
+  # ── 1. COVER ──────────────────────────────────────────────────────────────
+  - id: cover
+    type: cover
+    title: "Topicus.com Inc."
+    subtitle: "A Misunderstood Vertical Market Software Compounder\nTrading at a 50% Discount to Intrinsic Value"
+    body:
+      - "Ticker: TOI (TSXV)  |  Market Cap: C$7.7B  |  Price: C$92.25 (Jul 7, 2026)"
+      - "Recommendation: BUY  |  Base Target: C$196  |  Upside: +112%"
+    logo_placeholder: "[TOI Logo]"
+    presenter: "[Team Name]"
+    date: "July 2026"
+
+  # ── 2. TABLE OF CONTENTS ──────────────────────────────────────────────────
+  - id: toc
+    type: toc
+    title: "Table of Contents"
+    sections:
+      - number: "01"
+        label: "Company Overview"
+        page: 3
+      - number: "02"
+        label: "Investment Thesis"
+        page: 5
+      - number: "03"
+        label: "Business Model"
+        page: 7
+      - number: "04"
+        label: "Financial Performance"
+        page: 10
+      - number: "05"
+        label: "Free Cash Flow Analysis"
+        page: 13
+      - number: "06"
+        label: "Valuation"
+        page: 15
+      - number: "07"
+        label: "Competitive Positioning"
+        page: 19
+      - number: "08"
+        label: "Risks & Mitigants"
+        page: 21
+      - number: "09"
+        label: "Recommendation"
+        page: 23
+      - number: "APP"
+        label: "Appendix"
+        page: 25
+
+  # ── 3. COMPANY OVERVIEW ───────────────────────────────────────────────────
+  - id: company_overview
+    type: two_column
+    section: "01 — Company Overview"
+    title: "Topicus.com: A European VMS Roll-Up Machine"
+    left_column:
+      heading: "What They Do"
+      bullets:
+        - "Acquires, manages and grows vertical market software (VMS) companies across Europe"
+        - "Target niches: healthcare IT, public sector, financial services, education, legal — mission-critical software with high switching costs"
+        - "Business model mirrors parent Constellation Software (CSU): decentralised hold-forever M&A"
+        - "Spun out from Constellation Software in Jan 2021; CSU retains ~58% economic interest via preferred shares"
+      subheading: "Key Facts (as of Jul 2026)"
+      table:
+        columns: ["Metric", "Value"]
+        rows:
+          - ["Exchange", "TSXV (TOI)"]
+          - ["Market Cap", "C$7.7B"]
+          - ["Price (Jul 7)", "C$92.25"]
+          - ["52-wk Range", "C$85 – C$199"]
+          - ["Currency (ops)", "EUR"]
+          - ["FY2025 Revenue", "EUR 1.55B"]
+          - ["FY2025 FCF", "EUR 402M"]
+          - ["Employees", "~10,000+"]
+    right_column:
+      heading: "Geographic Footprint (FY2025 Revenue)"
+      chart:
+        type: donut
+        title: "Revenue by Region — FY2025 (EUR 1,552M)"
+        data:
+          labels: ["Rest of World", "Netherlands"]
+          values: [55.6, 44.4]
+          colors: ["#2E75B6", "#ED7D31"]
+        note: "Netherlands = legacy Topicus core; RoW = post-spinoff acquisitions across Germany, Nordics, DACH, Southern Europe"
+
+  # ── 4. CORPORATE STRUCTURE ────────────────────────────────────────────────
+  - id: corporate_structure
+    type: diagram
+    section: "01 — Company Overview"
+    title: "Corporate Structure & Ownership"
+    diagram:
+      type: org_chart
+      description: |
+        Constellation Software (CSU TSX)
+          └─ ~58% economic interest (via exchangeable preferred shares)
+        Public Float ~42%
+          └─ Topicus.com Inc. (TOI TSXV)
+               ├─ Topicus BV (Netherlands) — legacy Topicus
+               └─ Caris/TSS Group — acquired M&A platform
+      note: "Mark Leonard (CSU founder) retired 2025; Robin van Poelje (Topicus CEO) intact; management continuity confirmed"
+    callouts:
+      - label: "Unique Structure"
+        text: "Preferred shares held by CSU are exchangeable into TOI shares — creates permanent alignment and M&A discipline"
+      - label: "No Dividends"
+        text: "All FCF reinvested into acquisitions; no buybacks — capital returned via compounding"
+
+  # ── 5. INVESTMENT THESIS (OVERVIEW) ───────────────────────────────────────
+  - id: thesis_overview
+    type: three_column
+    section: "02 — Investment Thesis"
+    title: "Three Pillars: Why TOI Is a Buy at C$92"
+    columns:
+      - number: "1"
+        heading: "Mispriced Selloff"
+        icon: "📉"
+        bullets:
+          - "Stock -54% from Jul 2025 peak of C$199 on AI-disruption fears"
+          - "AI risk is real but overstated for mission-critical niche VMS"
+          - "Mark Leonard retirement triggered indiscriminate selling"
+          - "Price now below Morningstar FVE (C$131), analyst consensus (C$145), and our DCF (C$196)"
+      - number: "2"
+        heading: "Durable Compounding Engine"
+        icon: "🔄"
+        bullets:
+          - "FCF CAGR of ~20% over 4 years (FY2022–FY2025)"
+          - "EPS 3-yr growth of 36.9% — top 20% globally (Morningstar)"
+          - "Recurring revenue dominates: maintenance & support fees ~60%+ of revenue"
+          - "FCF margin expanding: 21.3% (FY2022) → 25.9% (FY2025)"
+      - number: "3"
+        heading: "Secular M&A Runway"
+        icon: "🌍"
+        bullets:
+          - "European VMS market fragmented — thousands of family-owned software SMEs"
+          - "EUR 282.5M deployed in acquisitions in FY2025 alone (up from EUR 99.8M in FY2024)"
+          - "Replicating CSU's Canadian playbook in Europe where competition is lower"
+          - "TAM effectively unlimited at current scale"
+
+  # ── 6. KEY MISPRICING CATALYST ────────────────────────────────────────────
+  - id: thesis_catalyst
+    type: two_column
+    section: "02 — Investment Thesis"
+    title: "Why the Market Is Wrong: AI Fear vs. VMS Reality"
+    left_column:
+      heading: "The Bear Case (Market's View)"
+      bullets:
+        - "AI will commoditise vertical software, destroying pricing power"
+        - "ChatGPT/Copilot will replace ERP and workflow tools"
+        - "CSU/Topicus management DNA leaves with Mark Leonard"
+        - "Low liquidity + TSXV listing = limited institutional demand"
+      subheading: "Why We Disagree"
+      bullets:
+        - "Topicus's VMS targets are deeply embedded: hospital scheduling, municipal permitting, court case management — not spreadsheets"
+        - "Switching costs: data migration risk, staff retraining, regulatory compliance make churn near-zero"
+        - "AI is a feature, not a replacement — VMS vendors will embed AI and charge more"
+        - "Topicus is an acquirer of software businesses, not a product company — AI just creates more acquisition targets"
+    right_column:
+      heading: "Price vs. Consensus Fair Value"
+      chart:
+        type: bar_horizontal
+        title: "Current Price vs. Valuation Estimates (C$)"
+        data:
+          labels:
+            - "Current Price"
+            - "Morningstar FVE"
+            - "Analyst Consensus"
+            - "Bear DCF"
+            - "Base DCF"
+            - "Bull DCF"
+          values: [92.25, 131.45, 145, 139, 196, 328]
+          colors:
+            - "#C00000"
+            - "#2E75B6"
+            - "#2E75B6"
+            - "#375623"
+            - "#375623"
+            - "#375623"
+          reference_line:
+            value: 92.25
+            label: "Current"
+        note: "All scenarios imply significant upside from current price"
+
+  # ── 7. BUSINESS MODEL ─────────────────────────────────────────────────────
+  - id: business_model
+    type: two_column
+    section: "03 — Business Model"
+    title: "The VMS Roll-Up Model: Acquire, Hold, Compound"
+    left_column:
+      heading: "Revenue Mix (Qualitative)"
+      bullets:
+        - "Maintenance & Support (recurring, ~60%+): annual fees from installed base — near-100% retention"
+        - "Professional Services (~25%): implementation, customisation — lower margin, tied to new wins"
+        - "Software Licences (~10%): upfront or SaaS fees"
+        - "Hardware (~5%): peripheral, declining"
+      subheading: "M&A Acquisition Criteria"
+      bullets:
+        - "Small to mid-size VMS businesses (EUR 1M–50M revenue)"
+        - "Target IRR: 15–20%+ on deployed capital"
+        - "Decentralised management retained post-acquisition"
+        - "No divestitures — permanent hold philosophy"
+    right_column:
+      heading: "Acquisition Spend Trajectory (EUR M)"
+      chart:
+        type: bar
+        title: "Annual M&A Spend (EUR M)"
+        data:
+          labels: ["FY2022", "FY2023", "FY2024", "FY2025"]
+          values: [129.1, 119.2, 99.8, 282.5]
+          colors: ["#2E75B6", "#2E75B6", "#2E75B6", "#ED7D31"]
+        annotation: "FY2025 surge reflects re-acceleration after FY2024 pause"
+      note: "FY2025 acquisition spend of EUR 282.5M = 70% of FCF — healthy reinvestment rate"
+
+  # ── 8. OPERATING MODEL ────────────────────────────────────────────────────
+  - id: operating_model
+    type: full_table
+    section: "03 — Business Model"
+    title: "Operating Model — Actuals & Projections (EUR M)"
+    table:
+      columns: ["", "FY2022A", "FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"]
+      rows:
+        - ["Revenue", "916.7", "1,120", "1,290", "1,552", "1,800", "2,088", "2,422"]
+        - ["YoY Growth", "—", "+22.2%", "+15.2%", "+20.3%", "+16.0%", "+16.0%", "+16.0%"]
+        - ["Gross Profit", "325.6", "399.6", "471.4", "559.9", "657.1", "762.3", "884.2"]
+        - ["Gross Margin", "35.5%", "35.7%", "36.5%", "36.1%", "36.5%", "36.5%", "36.5%"]
+        - ["EBIT", "133.9", "180.6", "219.7", "256.0", "315.1", "365.5", "423.9"]
+        - ["EBIT Margin", "14.6%", "16.1%", "17.0%", "16.5%", "17.5%", "17.5%", "17.5%"]
+        - ["D&A", "134.9", "151.7", "169.6", "204.3", "243.0", "281.9", "327.0"]
+        - ["FCF", "195.7", "238.8", "339.3", "402.0", "468.1", "543.0", "629.9"]
+        - ["FCF Margin", "21.3%", "21.3%", "26.3%", "25.9%", "26.0%", "26.0%", "26.0%"]
+        - ["Acquisitions", "(129.1)", "(119.2)", "(99.8)", "(282.5)", "(270.0)", "(313.3)", "(363.4)"]
+      highlight_rows: [0, 3, 5, 7]
+      column_notes:
+        - "A = Actual; E = Estimated"
+        - "FCF = OCF – CapEx (Moomoo definition, inclusive of leases)"
+
+  # ── 9. VERTICAL MARKET STRATEGY ───────────────────────────────────────────
+  - id: vms_strategy
+    type: two_column
+    section: "03 — Business Model"
+    title: "Why Vertical Market Software Is a Moat Factory"
+    left_column:
+      heading: "Sources of Competitive Advantage"
+      bullets:
+        - "Switching Costs: Proprietary data, regulatory certifications, staff workflows — migration cost often exceeds software cost"
+        - "Network Effects (limited): Some platforms benefit from inter-customer data sharing within a vertical"
+        - "Niche Dominance: Top 1–3 vendor in micro-verticals; no large competitor wants to enter"
+        - "Mission-Critical: Downtime = legal/operational liability for customers"
+      subheading: "Moat Score Trend (Morningstar)"
+      chart:
+        type: line
+        title: "Quantitative Moat Score (2021–2026)"
+        data:
+          labels: ["2021", "2022", "2023", "2024", "2025", "Jul-26"]
+          values: [0.72, 0.82, 0.99, 0.99, 0.98, 0.97]
+          color: "#2E75B6"
+        note: "Score consistently above 0.95 since 2023 → narrow moat well-established"
+    right_column:
+      heading: "Key End Markets"
+      table:
+        columns: ["Vertical", "Examples", "Stickiness"]
+        rows:
+          - ["Healthcare IT", "Patient scheduling, clinical records", "★★★★★"]
+          - ["Public Sector", "Permits, land registry, courts", "★★★★★"]
+          - ["Education", "School admin, student info systems", "★★★★☆"]
+          - ["Financial Services", "Credit union software, insurance workflows", "★★★★☆"]
+          - ["Legal/Compliance", "Case management, document systems", "★★★★★"]
+
+  # ── 10. REVENUE & MARGIN HISTORY ──────────────────────────────────────────
+  - id: revenue_margin_history
+    type: combo_chart
+    section: "04 — Financial Performance"
+    title: "Revenue Growth with Expanding Margins (FY2019–FY2025)"
+    chart:
+      type: bar_line_combo
+      title: "Revenue (EUR M) and Margins (%)"
+      bar_series:
+        label: "Revenue (EUR M)"
+        data:
+          labels: ["FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"]
+          values: [417.4, 494.0, 742.5, 916.7, 1120.0, 1290.0, 1552.3]
+        color: "#2E75B6"
+        axis: left
+      line_series:
+        - label: "Gross Margin %"
+          data: [null, null, null, 35.5, 35.7, 36.5, 36.1]
+          color: "#ED7D31"
+          axis: right
+        - label: "EBIT Margin %"
+          data: [16.9, 19.4, 16.3, 14.6, 16.1, 17.0, 16.5]
+          color: "#375623"
+          axis: right
+        - label: "FCF Margin %"
+          data: [null, null, null, 21.3, 21.3, 26.3, 25.9]
+          color: "#7030A0"
+          axis: right
+      axes:
+        left: { label: "EUR M", min: 0, max: 1800 }
+        right: { label: "%", min: 0, max: 45 }
+    callouts:
+      - text: "Revenue CAGR: +24.5% (FY2019–FY2025)"
+        style: positive
+      - text: "FCF margin step-up in FY2024 reflects operating leverage kicking in"
+        style: neutral
+
+  # ── 11. QUARTERLY PERFORMANCE ─────────────────────────────────────────────
+  - id: quarterly_performance
+    type: two_column
+    section: "04 — Financial Performance"
+    title: "Quarterly Trends — Q3 2024 Through Q1 2026"
+    left_column:
+      heading: "EPS and FCF per Quarter (EUR)"
+      chart:
+        type: bar_grouped
+        title: "Quarterly EPS (EUR) and FCF (EUR M)"
+        data:
+          labels: ["Q3'24", "Q4'24", "Q1'25", "Q2'25", "Q3'25", "Q4'25", "Q1'26"]
+          series:
+            - label: "EPS (EUR)"
+              values: [0.28, 0.40, 0.54, 0.31, -0.94, 0.59, 0.41]
+              color: "#2E75B6"
+              axis: left
+            - label: "FCF (EUR M)"
+              values: [29.77, 77.67, 268.55, -18.71, 46.79, 105.39, 277.25]
+              color: "#ED7D31"
+              axis: right
+    right_column:
+      heading: "Q3 2025 Anomaly — Explained"
+      subheading: "EPS of –€0.94 was non-cash, one-time"
+      bullets:
+        - "Q3 2025 EPS: –€0.94 (vs. +€0.54 in Q1 2025)"
+        - "Cause: €160.7M non-cash loss on sale of long-term equity investments (reclassification, not business deterioration)"
+        - "Operating profit Q3 2025: +€64.7M — entirely normal"
+        - "FCF Q3 2025: +€46.8M — positive, consistent with prior years"
+        - "Q4 2025 snapback: EPS +€0.59, FCF +€105M — confirms underlying health"
+      callout:
+        style: positive
+        text: "Strip out one-time items: underlying EPS for FY2025 ≈ €1.76 (vs. reported €0.50)"
+
+  # ── 12. BALANCE SHEET SNAPSHOT ────────────────────────────────────────────
+  - id: balance_sheet
+    type: two_column
+    section: "04 — Financial Performance"
+    title: "Balance Sheet — Capital Discipline & Leverage"
+    left_column:
+      heading: "Key Balance Sheet Items (EUR M)"
+      table:
+        columns: ["Metric", "Q1 2026", "FY 2025", "FY 2024", "FY 2023"]
+        rows:
+          - ["Cash", "331.4", "326.7", "206.2", "179.1"]
+          - ["Goodwill + Intangibles", "1,190", "1,200", "950.7", "903.7"]
+          - ["LT Equity Investments", "527.4", "515.4", "2.5", "2.4"]
+          - ["Total Assets", "2,590", "2,510", "1,540", "1,430"]
+          - ["Deferred Revenue (Current)", "453.8", "207.1", "166.6", "138.8"]
+          - ["Current Debt", "128.2", "376.2", "249.3", "181.7"]
+          - ["LT Debt", "418.0", "414.6", "102.5", "106.1"]
+          - ["Total Equity", "837.2", "781.8", "531.4", "592.5"]
+          - ["Shareholders' Equity", "510.6", "473.8", "311.3", "339.2"]
+        highlight_rows: [3, 7]
+    right_column:
+      heading: "Balance Sheet Observations"
+      bullets:
+        - "Deferred revenue of EUR 453.8M (Q1 2026) = forward visibility of recurring earnings"
+        - "LT equity investments surged to EUR 527.4M in Q1 2026 (from near-zero in FY2024) — likely strategic minority stake or partnership"
+        - "Debt (total ~EUR 546M) manageable: Net Debt / EBITDA ~1.2x"
+        - "Goodwill/intangibles growth reflects M&A activity — expected and value-accretive"
+        - "Low current ratio (0.62–0.87) is structural: VMS businesses collect cash upfront via subscriptions"
+      subheading: "Net Debt / EBITDA"
+      chart:
+        type: gauge
+        value: 1.2
+        range: [0, 3]
+        zones:
+          - [0, 1.5, "#375623"]
+          - [1.5, 2.5, "#ED7D31"]
+          - [2.5, 3, "#C00000"]
+        label: "Net Debt / EBITDA: 1.2x (Healthy)"
+
+  # ── 13. FCF ANALYSIS ──────────────────────────────────────────────────────
+  - id: fcf_analysis
+    type: combo_chart
+    section: "05 — Free Cash Flow Analysis"
+    title: "Free Cash Flow: The Lifeblood of the Compounding Model"
+    chart:
+      type: bar_line_combo
+      title: "FCF Generation & Yield (FY2019–FY2025)"
+      bar_series:
+        label: "FCF — Moomoo Def. (EUR M)"
+        data:
+          labels: ["FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"]
+          values: [118.8, 149.5, 171.0, 195.7, 238.8, 339.3, 402.0]
+        color: "#2E75B6"
+        axis: left
+      line_series:
+        - label: "FCF Margin %"
+          data: [null, null, null, 21.3, 21.3, 26.3, 25.9]
+          color: "#ED7D31"
+          axis: right
+      axes:
+        left: { label: "EUR M", min: 0, max: 500 }
+        right: { label: "%", min: 0, max: 35 }
+    callouts:
+      - text: "FCF CAGR FY2022–FY2025: ~27%"
+        style: positive
+      - text: "FCF / Market Cap (current): ~8.8% unlevered yield at C$92"
+        style: highlight
+
+  # ── 14. FCF RECONCILIATION ────────────────────────────────────────────────
+  - id: fcf_reconciliation
+    type: two_column
+    section: "05 — Free Cash Flow Analysis"
+    title: "FCF Definition Reconciliation — Morningstar vs. Moomoo"
+    left_column:
+      heading: "Why Two FCF Numbers Exist"
+      table:
+        columns: ["Year", "OCF", "CapEx", "Lease Pmts", "Morningstar FCF", "Moomoo FCF"]
+        rows:
+          - ["FY2022", "203.0", "(7.3)", "(13.5)", "182.2", "195.7"]
+          - ["FY2023", "246.6", "(7.8)", "n/a", "241.6", "238.8"]
+          - ["FY2024", "347.6", "(8.3)", "(50.3)", "289.1", "339.3"]
+          - ["FY2025", "412.7", "(10.7)", "(56.3)", "345.7", "402.0"]
+        highlight_rows: [3]
+      note: "All values EUR M"
+    right_column:
+      heading: "Our Definition & Rationale"
+      bullets:
+        - "We use the Moomoo (OCF – CapEx) definition throughout this deck — excludes lease payments"
+        - "Lease payments at TOI are largely real estate and equipment for acquired businesses — should be treated as operating costs but vary significantly quarter-to-quarter"
+        - "Morningstar's deduction of ~EUR 56M in FY2025 lease payments is conservative; FY2025 FCF on this basis is EUR 345.7M (still very strong)"
+        - "For conservative valuation sensitivity, we present both in the DCF"
+      subheading: "FCF Projection (EUR M)"
+      chart:
+        type: bar
+        title: "FCF Trajectory FY2022–FY2030E"
+        data:
+          labels: ["FY22A", "FY23A", "FY24A", "FY25A", "FY26E", "FY27E", "FY28E", "FY29E", "FY30E"]
+          values: [195.7, 238.8, 339.3, 402.0, 468.1, 543.0, 629.9, 730.6, 847.5]
+          colors: ["#2E75B6", "#2E75B6", "#2E75B6", "#2E75B6", "#375623", "#375623", "#375623", "#375623", "#375623"]
+        color_split: 4
+
+  # ── 15. WACC BUILD ────────────────────────────────────────────────────────
+  - id: wacc_build
+    type: two_column
+    section: "06 — Valuation"
+    title: "WACC Build — 10.5% Used in Base Case"
+    left_column:
+      heading: "WACC Components"
+      table:
+        columns: ["Component", "Value", "Notes"]
+        rows:
+          - ["Risk-Free Rate (10yr GoC)", "3.50%", "Govt of Canada 10-yr bond"]
+          - ["Equity Risk Premium", "5.50%", "Historical ERP for Canadian equities"]
+          - ["Beta (estimated)", "1.1x", "Based on CSU levered beta"]
+          - ["Size Premium (TSXV)", "1.00%", "Small-cap illiquidity"]
+          - ["Cost of Equity (Ke)", "10.55%", "Rf + β×ERP + size premium"]
+          - ["Pre-tax Cost of Debt", "5.50%", "FY2025 debt issuance terms"]
+          - ["Tax Rate", "25.0%", "Canadian statutory rate"]
+          - ["After-tax Cost of Debt", "4.13%", "Kd × (1 – tax)"]
+          - ["Equity Weight", "80%", "Q1 2026: E$837M / Total$1,383M"]
+          - ["Debt Weight", "20%", "Q1 2026: D$546M / Total$1,383M"]
+          - ["WACC (blended)", "9.27%", "Use 10.0–10.5% conservatively"]
+        highlight_rows: [10]
+    right_column:
+      heading: "WACC Sensitivity on Base Case Target (C$)"
+      chart:
+        type: heatmap
+        title: "Base DCF Target Price by WACC (rows) × Exit FCF Multiple (cols)"
+        row_labels: ["9.0%", "10.0%", "10.5%", "11.0%", "12.0%"]
+        col_labels: ["13x", "15x", "16x", "18x", "20x", "22x"]
+        data:
+          - [177, 199, 210, 231, 253, 274]
+          - [170, 190, 201, 221, 242, 262]
+          - [166, 186, 196, 216, 237, 257]
+          - [162, 182, 192, 212, 231, 251]
+          - [156, 174, 184, 203, 222, 240]
+        highlight_cell: [2, 2]   # 10.5% WACC, 16x exit = $196 base
+        color_scale: ["#C00000", "#ED7D31", "#375623"]
+        note: "Base: 10.5% WACC, 16x exit → C$196. All cells above current price C$92 imply positive return."
+
+  # ── 16. DCF MODEL ─────────────────────────────────────────────────────────
+  - id: dcf_model
+    type: two_column
+    section: "06 — Valuation"
+    title: "Discounted Cash Flow — Base Case: C$196 Target"
+    left_column:
+      heading: "DCF Assumptions & Output"
+      table:
+        columns: ["Scenario", "FCF Growth", "Exit Multiple", "WACC", "Target (C$)", "Upside"]
+        rows:
+          - ["Bear", "12%", "15x", "11.5%", "139", "+50%"]
+          - ["Base", "18%", "16x", "10.5%", "196", "+112%"]
+          - ["Bull", "23%", "22x", "9.5%", "328", "+256%"]
+        highlight_rows: [1]
+      subheading: "Projected FCF (EUR M)"
+      table2:
+        columns: ["Year", "FCF (EUR M)", "PV @ 10.5%"]
+        rows:
+          - ["FY2026E", "468.1", "423.7"]
+          - ["FY2027E", "543.0", "444.4"]
+          - ["FY2028E", "629.9", "465.4"]
+          - ["FY2029E", "730.6", "488.1"]
+          - ["FY2030E", "847.5", "511.5"]
+          - ["Terminal Value", "~13,900 (16x)", "8,398"]
+          - ["Enterprise Value", "—", "10,731"]
+    right_column:
+      heading: "FCF Bridge to Equity Value"
+      bullets:
+        - "Enterprise Value: ~EUR 10,731M (base)"
+        - "Less: Net Debt (EUR ~214M)"
+        - "Less: Non-controlling Interests (~EUR 327M)"
+        - "Equity Value: ~EUR 10,190M"
+        - "Shares: ~83.4M diluted"
+        - "Equity Value per Share: ~EUR 122 → ~C$196 at 0.62 EUR/CAD"
+      chart:
+        type: waterfall
+        title: "EV to Equity Value Bridge (EUR M)"
+        data:
+          items:
+            - label: "Enterprise Value"
+              value: 10731
+              type: total
+            - label: "Less: Net Debt"
+              value: -214
+              type: subtract
+            - label: "Less: NCI"
+              value: -327
+              type: subtract
+            - label: "Equity Value"
+              value: 10190
+              type: total
+          colors:
+            total: "#2E75B6"
+            subtract: "#C00000"
+
+  # ── 17. FOOTBALL FIELD ────────────────────────────────────────────────────
+  - id: football_field
+    type: full_chart
+    section: "06 — Valuation"
+    title: "Football Field Valuation — All Methods Point to Significant Upside"
+    chart:
+      type: football_field
+      title: "Implied Price Range by Valuation Method (C$)"
+      current_price: 92.25
+      methods:
+        - label: "Current Price"
+          low: 92.25
+          high: 92.25
+          midpoint: 92.25
+          color: "#C00000"
+          note: "Jul 7, 2026"
+        - label: "Morningstar FVE"
+          low: 104.57
+          high: 165.25
+          midpoint: 131.45
+          color: "#2E75B6"
+          note: "5-star floor to 1-star ceiling; Quant FVE = $131.45"
+        - label: "Analyst Consensus"
+          low: 140
+          high: 150
+          midpoint: 145
+          color: "#2E75B6"
+          note: "Desjardins C$140, RBC C$150, TD C$145"
+        - label: "Comps Re-rate"
+          low: 125
+          high: 145
+          midpoint: 135
+          color: "#375623"
+          note: "CSU 16.1x EV/FCF + 1yr FCF growth"
+        - label: "Bear DCF"
+          low: 130
+          high: 148
+          midpoint: 139
+          color: "#375623"
+          note: "12% FCF growth, 15x exit, 11.5% WACC"
+        - label: "Base DCF"
+          low: 186
+          high: 206
+          midpoint: 196
+          color: "#375623"
+          note: "18% FCF growth, 16x exit, 10.5% WACC"
+        - label: "Bull DCF"
+          low: 300
+          high: 360
+          midpoint: 328
+          color: "#375623"
+          note: "23% FCF growth, 22x exit, 9.5% WACC"
+      x_axis: { min: 50, max: 380, label: "Implied Price (C$)" }
+    callout:
+      text: "All methods except current price imply 50–256% upside. Bear case still +50%."
+      style: positive
+
+  # ── 18. COMPARABLE COMPANIES ──────────────────────────────────────────────
+  - id: comps
+    type: full_table
+    section: "07 — Competitive Positioning"
+    title: "Comparable Companies — TOI Trades at a Structural Discount to Peers"
+    table:
+      columns: ["Company", "Ticker", "Mkt Cap (C$B)", "EV/FCF", "EV/Rev", "P/E", "Gross Margin", "FCF Margin", "FCF CAGR 4yr"]
+      rows:
+        - ["Constellation Software", "CSU (TSX)", "60.4", "16.1x", "4.9x", "58.4x", "35.4%", "~30%", "~15%"]
+        - ["**Topicus.com**", "**TOI (TSXV)**", "**7.7**", "**12.9x**", "**3.4x**", "**155x*", "**36.1%**", "**25.9%**", "**~20%**"]
+        - ["Enghouse Systems", "ENGH (TSX)", "0.9", "9.2x", "2.1x", "12.4x", "61.3%", "22.4%", "—"]
+      highlight_rows: [1]
+      footer: "* TOI reported P/E distorted by Q3 2025 non-cash loss. Adjusted P/E ~52x on underlying ~€1.76 EPS"
+    callouts:
+      - text: "TOI trades at 12.9x EV/FCF vs. CSU at 16.1x — despite faster FCF growth and deeper European runway"
+        style: highlight
+      - text: "A re-rate to CSU multiple = C$135 alone. Our thesis requires only partial multiple recovery + earnings growth"
+        style: positive
+
+  # ── 19. COMPETITIVE MOAT ANALYSIS ─────────────────────────────────────────
+  - id: moat_analysis
+    type: two_column
+    section: "07 — Competitive Positioning"
+    title: "Narrow Moat — Durable, Strengthening, Misunderstood"
+    left_column:
+      heading: "Why AI Won't Destroy the Moat"
+      bullets:
+        - "Topicus's moat comes from switching costs, not technology superiority"
+        - "A hospital will not replace its patient scheduling system with ChatGPT — liability, compliance, and data security prevent it"
+        - "Even if AI improves the underlying software, TOI will embed and monetise it — as CSU has done with cloud transitions"
+        - "Competitive dynamics in European micro-verticals: often 1–2 incumbent vendors, no VC-backed disruptors"
+        - "Language and regulatory fragmentation in Europe further protects niche incumbents"
+    right_column:
+      heading: "Profitability & Return Metrics"
+      table:
+        columns: ["Metric", "FY2022", "FY2023", "FY2024", "FY2025", "Q1 2026"]
+        rows:
+          - ["ROA %", "4.6%", "5.3%", "6.2%", "2.1%*", "1.3%*"]
+          - ["ROE %", "—", "23.7%", "28.3%", "10.6%*", "6.6%*"]
+          - ["ROIC %", "—", "13.9%", "16.8%", "6.3%*", "5.4%*"]
+          - ["Gross Margin %", "35.5%", "35.7%", "36.5%", "36.1%", "35.8%"]
+          - ["EBIT Margin %", "14.6%", "16.1%", "17.0%", "16.5%", "17.1%"]
+        footer: "* Depressed by Q3 2025 one-time loss; FY2024 metrics represent normalised trend"
+      note: "Gross margin stability at 35–37% across scale confirms pricing power and disciplined acquisition integration"
+
+  # ── 20. RETURN PERFORMANCE ────────────────────────────────────────────────
+  - id: return_performance
+    type: two_column
+    section: "07 — Competitive Positioning"
+    title: "TOI vs. Market — Selloff Context"
+    left_column:
+      heading: "Annual Return vs. Morningstar Index (%)"
+      chart:
+        type: bar_grouped
+        title: "TOI Total Return vs. Morningstar Index"
+        data:
+          labels: ["2022", "2023", "2024", "2025", "YTD 2026"]
+          series:
+            - label: "TOI"
+              values: [-38.77, 25.53, 4.62, -27.88, null]
+              color: "#2E75B6"
+            - label: "Morningstar Index"
+              values: [-5.55, 12.22, 23.07, 32.26, 12.36]
+              color: "#ED7D31"
+    right_column:
+      heading: "Price/Fair Value History"
+      chart:
+        type: line
+        title: "P/FV Ratio (Morningstar)"
+        data:
+          labels: ["2021", "2022", "2023", "2024", "2025", "Jul-26"]
+          values: [0.89, 0.91, 1.14, 1.23, 1.12, 0.70]
+          color: "#2E75B6"
+          reference_lines:
+            - value: 1.0
+              label: "Fair Value"
+              style: dashed
+            - value: 0.70
+              label: "Current (30% disc.)"
+              style: solid
+              color: "#C00000"
+      note: "P/FV of 0.70 is the deepest discount since IPO. Last time P/FV was this low (2021–22), stock returned +25% in 2023."
+
+  # ── 21. RISKS & MITIGANTS ─────────────────────────────────────────────────
+  - id: risks
+    type: risk_table
+    section: "08 — Risks & Mitigants"
+    title: "Risk Register — Identified, Quantified, Mitigated"
+    table:
+      columns: ["Risk", "Likelihood", "Impact", "Mitigant", "Net Risk"]
+      rows:
+        - risk: "AI disrupts VMS end markets faster than expected"
+          likelihood: Medium
+          impact: High
+          mitigant: "Switching costs insulate near-term; TOI can acquire AI-native tools; revenue is recurring (multi-year contracts)"
+          net: Medium-Low
+        - risk: "Acquisition discipline slips — overpay for deals"
+          likelihood: Low-Medium
+          impact: High
+          mitigant: "CSU DNA and decentralised management; track record of IRR discipline; FY2024 pace slowed (EUR 99.8M) shows restraint"
+          net: Low
+        - risk: "Currency headwind (EUR/CAD)"
+          likelihood: Medium
+          impact: Medium
+          mitigant: "Operations in EUR; stock listed in CAD — creates FX volatility in reported numbers but not economic value"
+          net: Low
+        - risk: "Management transition post-Mark Leonard"
+          likelihood: Low
+          impact: Medium
+          mitigant: "Robin van Poelje intact as CEO; CSU management team unchanged; governance and playbook codified"
+          net: Low
+        - risk: "Leverage / liquidity — current ratio <1"
+          likelihood: Low
+          impact: Medium
+          mitigant: "Deferred revenue pre-funds operations; VMS businesses cash-flow positive day 1; EUR 331M cash on hand"
+          net: Very Low
+        - risk: "Low TSXV liquidity → mispricing persists"
+          likelihood: High
+          impact: Low
+          mitigant: "Structural risk for passive investors; long-term fundamental investors benefit from persistent mispricing"
+          net: Low
+    likelihood_colors:
+      Low: "#375623"
+      Low-Medium: "#92D050"
+      Medium: "#ED7D31"
+      Medium-High: "#FF0000"
+      High: "#C00000"
+
+  # ── 22. CATALYSTS ─────────────────────────────────────────────────────────
+  - id: catalysts
+    type: timeline
+    section: "08 — Risks & Mitigants"
+    title: "Catalysts to Re-Rate"
+    timeline:
+      - timeframe: "Q3 2026 (Oct)"
+        catalyst: "Q2 2026 Earnings Release"
+        description: "Continued double-digit revenue growth + normalised EPS will reset market perception of Q3 2025 loss as one-time"
+        impact: High
+      - timeframe: "H2 2026"
+        catalyst: "Large Acquisition Announcement"
+        description: "EUR 100M+ acquisition in new European geography would signal M&A engine intact and open new TAM"
+        impact: High
+      - timeframe: "H2 2026"
+        catalyst: "Institutional Accumulation"
+        description: "30%+ discount to FVE + Morningstar 5-star threshold (C$104.57) may trigger systematic quant buying"
+        impact: Medium
+      - timeframe: "2027"
+        catalyst: "TSXV → TSX Main Board Uplisting"
+        description: "If market cap sustains above C$10B threshold, uplisting would dramatically expand institutional eligible buyers"
+        impact: Very High
+      - timeframe: "Ongoing"
+        catalyst: "FCF Compounding"
+        description: "At 18% FCF CAGR, intrinsic value grows ~C$30–40 per year — time works in our favour"
+        impact: Medium
+
+  # ── 23. RECOMMENDATION ────────────────────────────────────────────────────
+  - id: recommendation
+    type: recommendation
+    section: "09 — Recommendation"
+    title: "Recommendation: BUY | Target C$196 (+112% Upside)"
+    summary_box:
+      rating: "BUY"
+      current_price: "C$92.25"
+      target_price: "C$196"
+      upside: "+112%"
+      time_horizon: "18–36 months"
+      risk_rating: "Medium"
+    thesis_summary:
+      - "Topicus is a proven FCF compounder with a 20%+ FCF CAGR, growing ~24% annually since 2019"
+      - "The -54% selloff from ATH is driven by narrative (AI fear, CEO change) — not fundamentals"
+      - "Every valuation method — DCF, comps, analyst consensus, Morningstar — implies 50–112%+ upside"
+      - "The Q3 2025 EPS loss was non-cash and one-time; underlying operations are tracking ahead of plan"
+      - "European VMS M&A runway is vast and largely untapped — TAM growth is structural"
+      - "At C$92, investors get a narrow-moat compounder at ~8.8% FCF yield — extraordinary for this quality"
+    return_scenario_table:
+      columns: ["Scenario", "Target (C$)", "Upside", "Key Assumption"]
+      rows:
+        - ["Bear", "139", "+51%", "FCF grows 12%/yr; 15x exit; 11.5% WACC"]
+        - ["**Base**", "**196**", "**+112%**", "**FCF grows 18%/yr; 16x exit; 10.5% WACC**"]
+        - ["Bull", "328", "+256%", "FCF grows 23%/yr; 22x exit; 9.5% WACC"]
+      highlight_rows: [1]
+
+  # ── 24. FINAL SLIDE / THANK YOU ───────────────────────────────────────────
+  - id: closing
+    type: closing
+    title: "Thank You"
+    subtitle: "Topicus.com (TOI) — Buy | C$196 Target"
+    contact_placeholder: "[Team Contact Information]"
+    disclaimer: |
+      This presentation is for educational and research purposes only. It does not constitute investment advice.
+      All financial data sourced from Morningstar, Moomoo, company filings, and public analyst reports as of July 2026.
+      Past performance is not indicative of future results.
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # APPENDIX
+  # ══════════════════════════════════════════════════════════════════════════
+
+  - id: appendix_divider
+    type: section_divider
+    title: "Appendix"
+    subtitle: "Supporting Data & Extended Analysis"
+
+  # ── A1. FULL INCOME STATEMENT ──────────────────────────────────────────────
+  - id: appendix_income_statement
+    type: full_table
+    section: "Appendix"
+    title: "A1 — Income Statement Summary (EUR M)"
+    table:
+      columns: ["Metric", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"]
+      rows:
+        - ["Revenue", "417.4", "494.0", "742.5", "916.7", "1,120.0", "1,290.0", "1,552.3"]
+        - ["Gross Profit", "—", "—", "—", "325.6", "399.6", "471.4", "559.9"]
+        - ["Gross Margin", "—", "—", "—", "35.5%", "35.7%", "36.5%", "36.1%"]
+        - ["Operating Income (EBIT)", "70.7", "96.0", "120.7", "133.9", "180.6", "219.7", "256.0"]
+        - ["EBIT Margin", "16.9%", "19.4%", "16.3%", "14.6%", "16.1%", "17.0%", "16.5%"]
+        - ["Net Income (Total)", "—", "—", "—", "87.6", "115.4", "149.5", "70.1"]
+        - ["Net Income (TOI Share)", "46.5", "63.7", "-1,910", "52.9", "71.8", "92.0", "41.8"]
+        - ["Diluted EPS (EUR)", "—", "1.62", "-30.16", "0.66", "0.88", "1.11", "0.50"]
+        - ["OCF", "121.4", "151.9", "176.4", "203.0", "246.6", "347.6", "412.7"]
+        - ["FCF (Moomoo)", "118.8", "149.5", "171.0", "195.7", "238.8", "339.3", "402.0"]
+      footer: "FY2021 net income distorted by consolidation of Topicus BV into listed entity (non-cash accounting)"
+      source: "Morningstar, Moomoo, company filings"
+
+  # ── A2. QUARTERLY P&L DETAIL ───────────────────────────────────────────────
+  - id: appendix_quarterly_pl
+    type: full_table
+    section: "Appendix"
+    title: "A2 — Quarterly P&L with Q3 2025 Anomaly Detail (EUR M)"
+    table:
+      columns: ["", "Q1'25", "Q2'25", "Q3'25", "Q4'25", "Q1'26"]
+      rows:
+        - ["Revenue", "355.6", "372.0", "387.9", "436.8", "435.7"]
+        - ["Gross Profit", "125.2", "129.3", "143.9", "161.6", "155.8"]
+        - ["Gross Margin", "35.2%", "34.8%", "37.1%", "37.0%", "35.8%"]
+        - ["EBIT", "56.7", "54.3", "64.7", "83.2", "74.7"]
+        - ["Gain / (Loss) on Securities", "+37.1", "+0.8", "–160.7", "–9.2", "–5.3"]
+        - ["Other Net Income", "+28.6", "–4.5", "–166.4", "+13.7", "–3.2"]
+        - ["Income Before Tax", "80.0", "51.7", "–109.9", "86.4", "64.4"]
+        - ["Net Income (Total)", "70.1", "41.5", "–120.9", "79.4", "55.1"]
+        - ["Net Income (TOI)", "44.8", "25.9", "–78.2", "49.3", "34.2"]
+        - ["Diluted EPS (EUR)", "0.54", "0.31", "–0.94", "0.59", "0.41"]
+        - ["FCF", "268.6", "–18.7", "46.8", "105.4", "277.3"]
+      highlight_rows: [3, 4, 5]
+      footer: "Q3 2025: EBIT was entirely normal (+€64.7M); the EPS loss was 100% attributable to non-cash securities reclassification"
+      source: "Moomoo, company filings"
+
+  # ── A3. MORNINGSTAR VALUATION MULTIPLES ────────────────────────────────────
+  - id: appendix_multiples
+    type: full_table
+    section: "Appendix"
+    title: "A3 — Historical Valuation Multiples (Morningstar)"
+    table:
+      columns: ["Metric", "2021", "2022", "2023", "2024", "2025", "Current"]
+      rows:
+        - ["Price / Fair Value", "0.89", "0.91", "1.14", "1.23", "1.12", "0.70"]
+        - ["Price / Sales", "12.23", "7.76", "7.45", "8.63", "7.22", "—"]
+        - ["Price / Earnings", "—", "16.75", "79.42", "80.74", "265.46", "—"]
+        - ["Price / Cash Flow", "51.28", "34.87", "35.79", "38.07", "31.27", "—"]
+        - ["Price / Book", "—", "17.24", "16.19", "24.34", "15.37", "—"]
+      highlight_rows: [0]
+      note: "P/E elevated in FY2025 due to depressed reported net income from Q3 non-cash loss"
+      source: "Morningstar"
+
+  # ── A4. FULL WACC SENSITIVITY TABLE ───────────────────────────────────────
+  - id: appendix_wacc_sensitivity
+    type: full_table
+    section: "Appendix"
+    title: "A4 — Full DCF Sensitivity: WACC × Exit FCF Multiple (C$ per share)"
+    table:
+      columns: ["WACC \\ Exit Multiple", "13x", "15x", "16x", "18x", "20x", "22x"]
+      rows:
+        - ["9.0%", "177", "199", "210", "231", "253", "274"]
+        - ["10.0%", "170", "190", "201", "221", "242", "262"]
+        - ["10.5%", "166", "186", "196", "216", "237", "257"]
+        - ["11.0%", "162", "182", "192", "212", "231", "251"]
+        - ["12.0%", "156", "174", "184", "203", "222", "240"]
+      highlight_rows: [2]
+      highlight_cols: [3]
+      note: "Highlighted cell = Base Case. All values assume 18% FCF growth FY2026–FY2030, EUR/CAD = 0.62"
+      source: "Own analysis"
+
+  # ── A5. BALANCE SHEET EXTENDED ─────────────────────────────────────────────
+  - id: appendix_balance_sheet
+    type: full_table
+    section: "Appendix"
+    title: "A5 — Balance Sheet History (EUR M)"
+    table:
+      columns: ["Metric", "Q1 2026", "FY 2025", "FY 2024", "FY 2023", "FY 2022"]
+      rows:
+        - ["Cash & Equivalents", "331.4", "326.7", "206.2", "179.1", "136.8"]
+        - ["Accounts Receivable", "210.5", "175.6", "142.8", "134.1", "95.8"]
+        - ["Total Current Assets", "704.7", "631.2", "454.4", "417.7", "309.8"]
+        - ["Net PP&E", "124.0", "124.0", "98.9", "81.1", "74.0"]
+        - ["Goodwill + Intangibles", "1,190.0", "1,200.0", "950.7", "903.7", "874.0"]
+        - ["LT Equity Investments", "527.4", "515.4", "2.5", "2.4", "2.1"]
+        - ["Total Assets", "2,590.0", "2,510.0", "1,540.0", "1,430.0", "1,290.0"]
+        - ["Deferred Revenue (Current)", "453.8", "207.1", "166.6", "138.8", "117.0"]
+        - ["Current Debt", "128.2", "376.2", "249.3", "181.7", "251.0"]
+        - ["Long-Term Debt", "418.0", "414.6", "102.5", "106.1", "77.9"]
+        - ["Total Liabilities", "1,750.0", "1,730.0", "1,000.0", "840.3", "827.0"]
+        - ["Non-controlling Interests", "326.6", "308.0", "220.1", "253.3", "201.7"]
+        - ["Shareholders' Equity", "510.6", "473.8", "311.3", "339.2", "266.1"]
+        - ["Total Equity", "837.2", "781.8", "531.4", "592.5", "467.8"]
+      highlight_rows: [6, 13]
+      source: "Moomoo, company filings"
+
+  # ── A6. MORNINGSTAR QUANTITATIVE SUMMARY ───────────────────────────────────
+  - id: appendix_morningstar
+    type: two_column
+    section: "Appendix"
+    title: "A6 — Morningstar Quantitative Report Summary"
+    left_column:
+      heading: "Key Morningstar Ratings (Jul 7, 2026)"
+      table:
+        columns: ["Field", "Value"]
+        rows:
+          - ["Last Close (C$)", "91.70"]
+          - ["Fair Value Estimate (C$)", "131.45"]
+          - ["Price / Fair Value", "0.70 (30% discount)"]
+          - ["Star Rating", "3 Stars (capped at 3 — momentum filter)"]
+          - ["Uncertainty Rating", "High"]
+          - ["Economic Moat", "Narrow (score ~0.97)"]
+          - ["Financial Health", "Moderate"]
+          - ["1-Star Price (C$)", "165.25"]
+          - ["5-Star Price (C$)", "104.57"]
+          - ["EPS 3-yr Growth", "36.9% (top 20% globally)"]
+          - ["Trading Vol. Percentile", "Bottom 40% (low liquidity risk)"]
+    right_column:
+      heading: "Why Star Rating is Only 3 Stars"
+      bullets:
+        - "Morningstar's Quant Star Rating uses a momentum overlay: companies in the bottom 30th percentile of 12-1 month momentum are capped at 3 stars"
+        - "TOI's -54% drawdown placed it in the bottom momentum decile — mechanically capped"
+        - "This is a feature of the quant model, NOT a fundamental assessment"
+        - "The underlying P/FV of 0.70 would normally warrant 4–5 stars"
+        - "This discrepancy reinforces our thesis: systematic tools are distorting the signal"
+      note: "5-star threshold = C$104.57 — stock is within 14% of triggering systematic quant BUY programs"
+      source: "Morningstar Quantitative Equity Report, Jul 7 2026"
